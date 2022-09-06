@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "complex"
+name = "xcomplex"
 version = "0.1.0"

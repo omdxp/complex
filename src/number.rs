@@ -7,7 +7,7 @@
 //! ```
 //! use std::f64::consts::PI;
 //!
-//! use complex::number::Complex;
+//! use xcomplex::number::Complex;
 //!
 //! let c = Complex::new(1.0, 2.0);
 //! let d = Complex::new(3.0, 4.0);
@@ -45,7 +45,7 @@ impl Complex {
     /// Create a new complex number.
     /// # Examples
     /// ```
-    /// use complex::number::Complex;
+    /// use xcomplex::number::Complex;
     /// let c = Complex::new(1.0, 2.0);
     /// ```
     /// # Panics
@@ -65,7 +65,7 @@ impl Complex {
     /// Return the norm of the complex number.
     /// # Examples
     /// ```
-    /// use complex::number::Complex;
+    /// use xcomplex::number::Complex;
     /// let c = Complex::new(1.0, 2.0);
     /// assert_eq!(c.norm(), 2.23606797749979);
     /// ```
@@ -84,7 +84,7 @@ impl Complex {
     /// Return the argument of the complex number.
     /// # Examples
     /// ```
-    /// use complex::number::Complex;
+    /// use xcomplex::number::Complex;
     /// let c = Complex::new(1.0, 2.0);
     /// assert_eq!(c.arg(), 1.1071487177940904);
     /// ```
@@ -103,7 +103,7 @@ impl Complex {
     /// Return the complex conjugate of the complex number.
     /// # Examples
     /// ```
-    /// use complex::number::Complex;
+    /// use xcomplex::number::Complex;
     /// let c = Complex::new(1.0, 2.0);
     /// assert_eq!(c.conj(), Complex::new(1.0, -2.0));
     /// ```
@@ -125,7 +125,7 @@ impl Complex {
     /// Return the exponential of the complex number.
     /// # Examples
     /// ```
-    /// use complex::number::Complex;
+    /// use xcomplex::number::Complex;
     /// let c = Complex::new(1.0, 2.0);
     /// assert_eq!(c.exp(), Complex::new(-1.1312043837568135, 2.4717266720048188));
     /// ```
@@ -148,7 +148,7 @@ impl Complex {
     /// Return the complex number raised to the power of a real number.
     /// # Examples
     /// ```
-    /// use complex::number::Complex;
+    /// use xcomplex::number::Complex;
     /// use std::f64::consts::PI;
     /// let c = Complex::new(1.0, 2.0);
     /// assert_eq!(c.powf(PI), Complex::new(-11.826467250438055, -4.138504280918663));
@@ -174,7 +174,7 @@ impl Complex {
     /// Return the complex number raised to the power of an integer.
     /// # Examples
     /// ```
-    /// use complex::number::Complex;
+    /// use xcomplex::number::Complex;
     /// let c = Complex::new(1.0, 2.0);
     /// assert_eq!(c.powi(2), Complex::new(-3.0, 4.000000000000002));
     /// ```
@@ -199,7 +199,7 @@ impl Complex {
     /// Return the natural logarithm of the complex number.
     /// # Examples
     /// ```
-    /// use complex::number::Complex;
+    /// use xcomplex::number::Complex;
     /// let c = Complex::new(1.0, 2.0);
     /// assert_eq!(c.ln(), Complex::new(0.8047189562170503, 1.1071487177940904));
     /// ```
@@ -221,7 +221,7 @@ impl Complex {
     /// Return the complex number raised to the power of another complex number.
     /// # Examples
     /// ```
-    /// use complex::number::Complex;
+    /// use xcomplex::number::Complex;
     /// let c = Complex::new(1.0, 2.0);
     /// assert_eq!(c.powc(Complex::new(2.0, 3.0)), Complex::new(-7.041080062171126, -7.259799175444256));
     /// ```
@@ -240,7 +240,7 @@ impl Complex {
     /// Return the square root of the complex number.
     /// # Examples
     /// ```
-    /// use complex::number::Complex;
+    /// use xcomplex::number::Complex;
     /// let c = Complex::new(1.0, 2.0);
     /// assert_eq!(c.sqrt(), Complex::new(1.272019649514069, 0.7861513777574233));
     /// ```
